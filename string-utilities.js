@@ -1,5 +1,7 @@
 // '==' compares two variables but ignores datatypes.
-const isPalindrome = (string) => string == string.split('').reverse().join('');
+const isPalindrome = (string) => {
+    return (string == string.split('').reverse().join(''));
+}
 
 const isAnagram = (w1, w2) => {
 
